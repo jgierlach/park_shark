@@ -3,9 +3,8 @@ import './Navbar.css'
 
 const Navbar = () => {
     return (
-      <div className='ui menu white index'>
-        <a className='item'>Reviews</a>
-        <a className='item'>Upcoming Events</a>
+      <div className='row container'>
+        <h1 className="col s12 white center">Hello World</h1>
       </div>   
     )
 }
