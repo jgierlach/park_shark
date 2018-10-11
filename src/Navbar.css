@@ -8,5 +8,9 @@
 }
 
 .link-size {
-  font-size: 1.3em;
+  font-size: 1em;
+}
+
+body {
+  font-size: 1em;
 }

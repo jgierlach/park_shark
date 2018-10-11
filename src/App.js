@@ -7,21 +7,40 @@ import Contact from './contact'
 import Mission from './mission'
 import Home from './home'
 
+// class App extends Component {
+//   render() {
+//     return (
+//       <div className="App">
+//         <Navbar />
+//         <Router>
+//           <Switch>
+//             <Route exact path='/mission' component={Mission} />
+//             <Route exact path='/contact' component={Contact} />
+//             <Route exact path='/blog' component={Blog} />
+//             <Route exact path='/home' component={Home} />
+//             <Redirect from='/' to='/home'/>
+//           </Switch>
+//         </Router> 
+//       </div>
+//     );
+//   }
+// }
+
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Navbar />
-        <Router>
-          <Switch>
-            <Route exact path='/mission' component={Mission} />
-            <Route exact path='/contact' component={Contact} />
-            <Route exact path='/blog' component={Blog} />
-            <Route exact path='/home' component={Home} />
-            <Redirect from='/' to='/home'/>
-          </Switch>
-        </Router> 
-      </div>
+      <Router>
+        <div className="App">
+          <Navbar />
+            <Switch>
+              <Route exact path='/mission' component={Mission} />
+              <Route exact path='/contact' component={Contact} />
+              <Route exact path='/blog' component={Blog} />
+              <Route exact path='/home' component={Home} />
+              <Redirect from='/' to='/home'/>
+            </Switch>
+        </div>
+      </Router> 
     );
   }
 }

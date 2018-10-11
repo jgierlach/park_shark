@@ -9,7 +9,7 @@ const TagLine = () => {
           <img className="park-shark-logo" src={ParkSharkLogoFull} alt=""/>
         </div>
         <div className="col-s12">
-          <blockquote className="white-text">"Politics aint worrying this country so much as where to find a parking space."</blockquote>
+          <blockquote className="">"Politics aint worrying this country so much as where to find a parking space."</blockquote>
         </div>
       </div>   
     )

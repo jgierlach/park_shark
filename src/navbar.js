@@ -6,15 +6,14 @@ import {withRouter, Route, Switch, Redirect, BrowserRouter as Router, NavLink, L
 const Navbar = () => {
     return (
     <div className='row blue lighten-1 center'>
-      <Router>
         <nav>
-          <div>
-          <NavLink to='/home'
+          {/* <div> */}
+            <NavLink to='/home'
             activeStyle={{
               color: '#EF4907'
              }}
             >Home </NavLink>  
-          <NavLink to='/mission'
+            <NavLink to='/mission'
             activeStyle={{
               color: '#EF4907'
              }}
@@ -29,9 +28,8 @@ const Navbar = () => {
               color: '#EF4907'
              }}
             >Blog </NavLink>
-          </div>
+          {/* </div> */}
         </nav>
-       </Router>
     </div>   
     )
   }
