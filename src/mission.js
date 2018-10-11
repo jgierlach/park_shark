@@ -1,8 +1,9 @@
 import React from 'react';
+import './mission.css'
 
 const mission = () => {
     return (
-      <h1 className="green">This is the mission component!</h1>
+      <h1 className="green">This is the Mission component!</h1>
     )
 }
 
