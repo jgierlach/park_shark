@@ -1,4 +1,4 @@
- .App {
+/* body {
   background-image: url("https://media.nbcconnecticut.com/images/1200*810/101208-Traffic-Cars.jpg");
   position: fixed;
   top: 0;
@@ -8,7 +8,7 @@
   z-index: -99;
 }
 
-.App:after {
+body:after {
   display: block;
   content: '';
   position: fixed;
@@ -17,9 +17,8 @@
   width: 100%;
   height: 100%;
   z-index: -98; 
-  background: rgba(0,0,0,0.75)
-}
-
+  background: rgba(0,0,0,0.85);
+} */
 
 
 
