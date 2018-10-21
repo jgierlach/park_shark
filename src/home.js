@@ -1,12 +1,13 @@
 import React from 'react';
 import './home.css';
 import TagLine from './tag-line'
+import CallToAction from './call-to-action'
 
 const home = () => {
     return (
-      <div>
+      <div className="container center">
         <TagLine />
-        {/* <h1 className="red">This is the Home component!</h1> */}
+        <CallToAction />
       </div>
     )
 }
