@@ -6,17 +6,18 @@ const CallToAction = () => {
         <form action="https://www.getdrip.com/forms/759119398/submissions" method="post" data-drip-embedded-form="759119398">
             <h5 data-drip-attribute="headline">Stay Updated</h5>
             <div data-drip-attribute="description"></div>
+            <div className="row">
+              <div className="input-field col s6">
+                <label htmlFor="drip-name">name</label>
+                <input type="text" id="drip-name" name="fields[name]" defaultValue="" />
+              </div>
+              <div className="input-field col s6">
+                <label htmlFor="drip-email">email</label>
+                <input type="email" id="drip-email" name="fields[email]" defaultValue="" />
+              </div>
+            </div>  
             <div>
-              <label htmlFor="drip-name">name</label><br />
-              <input type="text" id="drip-name" name="fields[name]" defaultValue="" />
-            </div>
-            <div>
-              <label htmlFor="drip-email">Email Address</label>
-              <br />
-              <input type="email" id="drip-email" name="fields[email]" defaultValue="" />
-            </div>
-            <div>
-              <input type="submit" value="Sign Up" data-drip-attribute="sign-up-button" />
+              <button className="waves-effect waves-light btn-small" type="submit" value="Sign Up" data-drip-attribute="sign-up-button">Sign Up</button>
             </div>
        </form>
     </div> 
