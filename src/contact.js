@@ -27,7 +27,7 @@ const contact = () => {
                <input id="email" className="validate" type="email" name="_replyto" />
              </div>
            </div>
-           {/* This row contains the message textarea*/}
+           {/* This row contains the message textarea */}
            <div className="row">
              <div className="input-field col s12">
                <label htmlFor="textarea">message</label>
