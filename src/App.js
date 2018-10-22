@@ -8,25 +8,6 @@ import Mission from './mission'
 import Home from './home'
 import Footer from './footer'
 
-// class App extends Component {
-//   render() {
-//     return (
-//       <div className="App">
-//         <Navbar />
-//         <Router>
-//           <Switch>
-//             <Route exact path='/mission' component={Mission} />
-//             <Route exact path='/contact' component={Contact} />
-//             <Route exact path='/blog' component={Blog} />
-//             <Route exact path='/home' component={Home} />
-//             <Redirect from='/' to='/home'/>
-//           </Switch>
-//         </Router> 
-//       </div>
-//     );
-//   }
-// }
-
 class App extends Component {
   render() {
     return (
@@ -42,7 +23,7 @@ class App extends Component {
             </Switch>
           {/* <Footer />   */}
         </div>
-      </Router> 
+      </Router>
     );
   }
 }
