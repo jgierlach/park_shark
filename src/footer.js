@@ -9,7 +9,7 @@ const footer = () => {
           <div className="container">
             <div className="row">
           <p className="left">© 2018 Park Shark</p>
-          <ul className="right">
+          {/* <ul className="right">
             <li>
               <Link className="grey-text text-lighten-4 right" to="/home">Home</Link>
             </li>
@@ -19,7 +19,7 @@ const footer = () => {
             <li>
               <Link className="grey-text text-lighten-4 right" to="/blog">Blog/News</Link>
             </li>
-          </ul>
+          </ul> */}
            </div>
           </div>
         </div>
