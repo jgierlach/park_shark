@@ -21,7 +21,7 @@ class App extends Component {
               <Route exact path='/home' component={Home} />
               <Redirect from='/' to='/home'/>
             </Switch>
-          {/* <Footer />   */}
+          <Footer />  
         </div>
       </Router>
     );

@@ -8,9 +8,10 @@ const Navbar = () => {
         <nav>
           <div className="nav-wrapper">
             {/* Beginning of desktop navbar */}
-            <NavLink className="brand-logo" to='/home'>
-              Logo 
-            </NavLink>
+            {/* <NavLink className="brand-logo" to='/home'> */}
+              {/* <img src={ParkSharkLogo} id="park-shark-logo" alt="" />  */}
+              {/* Park Shark */}
+            {/* </NavLink> */}
             {/* Hamburger navbar icon */}
             <a className="sidenav-trigger" href="#" data-target="mobile-links">
               <i className="material-icons">menu</i>
@@ -18,19 +19,19 @@ const Navbar = () => {
             <ul id="nav-mobile" className="right hide-on-med-and-down">
               <li>
                {/* Link to home component */}  
-                {/* <NavLink to='/home'
+                <NavLink to='/home'
                   activeStyle={{
                     color: '#EF4907'
                    }}>Home
-                </NavLink> */}
+                </NavLink>
               </li> 
               <li>
                {/* Link to mission component */}      
-                <NavLink to='/mission'
+                {/* <NavLink to='/mission'
                   activeStyle={{
                   color: '#EF4907'
                  }}>Mission   
-                </NavLink>
+                </NavLink> */}
               </li>
               <li>
                {/* Link to contact component */}
@@ -45,7 +46,7 @@ const Navbar = () => {
                 <NavLink to='/blog'
                   activeStyle={{
                   color: '#EF4907'
-                }}>Blog   
+                }}>Blog/News   
                 </NavLink>
               </li>
             </ul>
@@ -53,19 +54,19 @@ const Navbar = () => {
             <ul id="mobile-links" className="sidenav">
               <li>
                 {/* Mobile Link to home component */}
-                {/* <NavLink to='/home'
+                <NavLink to='/home'
                   activeStyle={{
                     color: '#EF4907'
                    }}>Home
-                </NavLink> */}
+                </NavLink>
               </li>
               <li>
                {/* Mobile Link to mission component */}     
-                <NavLink to='/mission'
+                {/* <NavLink to='/mission'
                   activeStyle={{
                   color: '#EF4907'
                  }}>Mission   
-                </NavLink>
+                </NavLink> */}
               </li>
               <li>
                {/* Mobile Link to contact component */} 
@@ -80,7 +81,7 @@ const Navbar = () => {
                 <NavLink to='/blog'
                   activeStyle={{
                   color: '#EF4907'
-                }}>Blog   
+                }}>Blog/News   
                 </NavLink>
               </li>  
             </ul>

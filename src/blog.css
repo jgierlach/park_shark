@@ -1,3 +1,7 @@
-body {
- background: white;
+#marign {
+  margin-top: 20em;
+}
+
+a {
+  text-decoration: none;
 }

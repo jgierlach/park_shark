@@ -1,6 +1,10 @@
-.park-shark-logo {
-  width: 10%;
-  height: 10%;
+#park-shark-logo {
+  width: 45px;
+  height: 45px;
+}
+
+.top-margin {
+  margin-top: .3em;
 }
 
 .no-defaults {
