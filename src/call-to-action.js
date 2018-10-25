@@ -4,7 +4,7 @@ const CallToAction = () => {
   return (
      <div className="container center">   
         <form action="https://www.getdrip.com/forms/759119398/submissions" method="post" data-drip-embedded-form="759119398">
-            <h5 data-drip-attribute="headline">Get updates on our pilot program and product development</h5>
+            <h5 data-drip-attribute="">Get updates on our pilot program.</h5>
             <div data-drip-attribute="description"></div>
             <div className="row">
               <div className="input-field col s6">
