@@ -11,10 +11,8 @@ const TagLine = () => {
         </div>
       </div>
       <div className="row">  
-        <div className="col-s12">
-          <blockquote>
-            <h5>"Politics aint worrying this country one tenth so much as much as where to find a parking space."</h5> 
-          </blockquote>
+        <div className="col s12">
+          <h4>Making small cities smarter.</h4> 
         </div>
       </div> 
      </div>   
