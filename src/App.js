@@ -7,6 +7,7 @@ import Contact from './contact'
 import Mission from './mission'
 import Home from './home'
 import Footer from './footer'
+import Donation from './donation'
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
               <Route exact path='/contact' component={Contact} />
               <Route exact path='/blog' component={Blog} />
               <Route exact path='/home' component={Home} />
+              <Route exact path='/donate' component={Donation} />
               <Redirect from='/' to='/home'/>
             </Switch>
           <Footer />  

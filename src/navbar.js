@@ -49,8 +49,16 @@ const Navbar = () => {
                 }}>Blog/News   
                 </NavLink>
               </li>
+              <li>
+               {/* Link to donation component */} 
+                <NavLink to='/donate'
+                  activeStyle={{
+                  color: '#EF4907'
+                }}>Donate   
+                </NavLink>
+              </li> 
             </ul>
-            {/* End of desktop navbar beginning of mobile navbar*/}
+            {/* End of desktop navbar beginning of mobile navbar */}
             <ul id="mobile-links" className="sidenav">
               <li>
                 {/* Mobile Link to home component */}
@@ -82,6 +90,14 @@ const Navbar = () => {
                   activeStyle={{
                   color: '#EF4907'
                 }}>Blog/News   
+                </NavLink>
+              </li>
+              <li>
+               {/* Mobile Link to donation component */} 
+                <NavLink to='/donate'
+                  activeStyle={{
+                  color: '#EF4907'
+                }}>Donate   
                 </NavLink>
               </li>  
             </ul>
