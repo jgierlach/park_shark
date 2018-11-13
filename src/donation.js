@@ -5,7 +5,7 @@ const donations = () => {
       <div className="container">
         <div className="row center">
           <div className="col s12">
-            <h3>Help Park Shark by donating to purchase our first round of parking censors</h3>
+            <h3>Help Park Shark by donating to purchase our first round of parking sensors</h3>
           </div>
         </div>
         <div className="row center">
