@@ -1,4 +1,5 @@
 import React from 'react'
+import './call-to-action.css'
 
 const CallToAction = () => {
   return (
@@ -16,10 +17,24 @@ const CallToAction = () => {
                 <input type="email" id="drip-email" name="fields[email]" defaultValue="" />
               </div>
             </div>  
-            <div>
-              <button className="waves-effect waves-light btn-small" type="submit" value="Sign Up" data-drip-attribute="sign-up-button">Sign Up</button>
+            <div className="row">
+              <div className="col s6">
+                <button className="waves-effect waves-light btn" type="submit" value="Sign Up" data-drip-attribute="sign-up-button">Sign Up</button>
+               </div>
+              <div className="col s6">
+                <a target="_blank" rel="noopener noreferrer" href="http://gofundme.com/parkshark">
+                  <button className="btn">Donate!</button>
+                </a>
+              </div> 
             </div>
        </form>
+       {/* <div className="row">
+         <div className="col s12">
+           <a target="_blank" rel="noopener noreferrer" href="http://gofundme.com/parkshark">
+             <button className="btn donate-btn">Donate!</button>
+          </a>
+         </div>
+       </div> */}
     </div> 
   )
 }
