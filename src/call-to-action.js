@@ -1,5 +1,6 @@
 import React from 'react'
 import './call-to-action.css'
+import { Link } from 'react-router-dom'
 
 const CallToAction = () => {
   return (
@@ -22,9 +23,11 @@ const CallToAction = () => {
                 <button className="waves-effect waves-light btn" type="submit" value="Sign Up" data-drip-attribute="sign-up-button">Sign Up</button>
                </div>
               <div className="col s6">
-                <a target="_blank" rel="noopener noreferrer" href="http://gofundme.com/parkshark">
-                  <button className="btn">Donate!</button>
-                </a>
+                <Link to="/donate">
+                  <button className="btn">
+                    Donate!
+                  </button>
+                </Link>
               </div> 
             </div>
        </form>
